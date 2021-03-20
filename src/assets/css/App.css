@@ -1,0 +1,123 @@
+#menu-toggle {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+#menu-toggle span {
+  font-size: 18px;
+}
+#menu-toggle p {
+  display: inline;
+  font-size: 20px;
+}
+#menu-toggle i {
+  font-size: 25px;
+}
+#close-sidebar {
+  font-size: 2rem;
+  padding-top: 0.5rem;
+}
+#menu-toggle:hover {
+  color: #3cf589;
+}
+#sidebar-wrapper {
+  z-index: 1;
+}
+.sidebar-heading {
+  min-height: 71px;
+}
+#sideBarNav i.bx {
+  font-size: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+#sideBarNav i {
+  font-size: 25px;
+}
+.overlay {
+  transition: 0.3s;
+  /* position: fixed; Sit on top of the page content
+  display: none; Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: default;
+  overflow: hidden;
+}
+.wrapperNormal {
+  z-index: none;
+}
+.wrapperToggled {
+  z-index: -5;
+}
+
+/* ====================================================== */
+/* Variables  */
+:root {
+  --darkFont: #3b3b3b;
+  --lightFont: #5f5f5f;
+}
+
+/* ====================================================== */
+/* Home Component styles  */
+/* ====================================================== */
+.homeJumboTitle {
+  font-weight: 600;
+  color: var(--darkFont);
+  display: inline;
+}
+#homeJumboTitleIcon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.homeJumboSubTitle {
+  color: var(--lightFont);
+  text-transform: uppercase;
+}
+.homeJumboPara {
+  color: var(--lightFont);
+}
+.homeJumboCredit {
+  margin-top: 1.2rem;
+  margin-bottom: 0px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.homeJumboCredit2 {
+  font-size: 0.8rem;
+}
+
+/* ====================================================== */
+/* Add Student Component Styles */
+/* ====================================================== */
+.addIcon {
+  font-size: 1.5rem;
+  display: inline;
+  color: var(--darkFont);
+}
+.addTitle {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 0.3rem;
+  display: inline;
+  color: var(--darkFont);
+}
+
+/* ====================================================== */
+/* Show Students Component Styles */
+/* ====================================================== */
+/* ....
+....
+....
+....
+....
+.... */
+
+/* ====================================================== */
+/* Delete Students Component Styles */
+/* ====================================================== */

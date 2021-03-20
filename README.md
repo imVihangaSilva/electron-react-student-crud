@@ -1,2 +1,2 @@
 # Electron/ReactJS Desktop Application
-## Student management system with CRUD Operations
+Student management system with CRUD Operations
